@@ -1,6 +1,7 @@
 %% load main image
 imagename = 'Lenna.png';
-img = rgb2gray(imread(imagename));
+imgc = imread(imagename);
+img = rgb2gray(imgc);
 
 % addpath('quiz1');
 % demo1
